@@ -9,10 +9,11 @@ public class NumberUtils {
         }
         return sum;
     }
-    public List<Integer> getMultiplyOddNumber(List<Integer> numbers){
+
+    public List<Integer> getMultiplyOddNumber(List<Integer> numbers) {
         List<Integer> oddNums = new ArrayList<>();
         for (int i = 0; i < numbers.size(); i++) {
-            if (numbers.get(i)%2!=0){
+            if (numbers.get(i) % 2 != 0) {
                 oddNums.add(numbers.get(i));
             }
         }
